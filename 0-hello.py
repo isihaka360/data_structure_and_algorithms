@@ -1,4 +1,9 @@
-def greet_user(name):
+def GreetUser(name: str):
+    """Function to greet a user
+       The function require one argument when is called"""
+       
     print("Hello, {}".format(name))
+    
 if __name__ == "__main__":
-    greet_user("Bob")
+    
+    GreetUser("Bob") # function is called

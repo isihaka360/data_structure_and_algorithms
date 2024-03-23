@@ -1,4 +1,5 @@
-def sum_even_numbers(my_list):
+def sum_even_numbers(my_list:int):
+    assert my_list.size() != 0 
     #Returns the sum of all the even numbers in a list of integers 
     sum = 0
     for num in my_list:
